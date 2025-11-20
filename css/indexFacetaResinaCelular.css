@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px) 
+{
+    .divFacetaResina
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        margin-top: 80px;
+        border-bottom: 2px solid #638e93;
+        box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: #638e93;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .sessaoFacetaResina
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        direction: justify;
+        border-radius: 10px;
+        margin: 30px 0 0 0;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sessaoFacetaResina img
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .sessaoFacetaResina p, li
+    {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 601px) 
+{
+    .divFacetaResina
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+        margin-top: 80px;
+        border-bottom: 2px solid #638e93;
+        box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: #638e93;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .sessaoFacetaResina
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 900px;
+        direction: justify;
+        border-radius: 10px;
+        margin: 30px 0 0 0;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sessaoFacetaResina img
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .sessaoFacetaResina p, li
+    {
+        font-size: 21px;
+    }
+}

@@ -1,0 +1,119 @@
+@media only screen and (max-width: 600px) {
+
+    /*Este trecho estiliza o menu de navegaçã*/
+    .menu {
+        display: flex;
+        width: 600px;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .imagemMenu {
+        display: flex;
+        background: url("../clinicaImagem/clinic.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 600px;
+        height: 100%;
+        position: relative;
+        opacity: 0.4;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        }
+
+    .menuNavegacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #638e93;
+        position: absolute;
+        z-index: 1;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .menuNavegacao a {
+        margin: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #638e93;
+    }
+
+    .menuNavegacao a:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+
+    /*Este trecho estiliza o menu de navegaçã*/
+    .menu {
+        display: flex;
+        width: 900px;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .imagemMenu {
+        display: flex;
+        background: url("../clinicaImagem/clinic.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 900px;
+        height: 600px;
+        position: relative;
+        opacity: 0.4;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        }
+
+    .menuNavegacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #638e93;
+        position: absolute;
+        z-index: 1;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .menuNavegacao a {
+        margin: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #638e93;
+    }
+
+    .menuNavegacao a:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+    }
+}

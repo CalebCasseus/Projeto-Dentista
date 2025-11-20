@@ -1,0 +1,192 @@
+
+@media only screen and (min-width: 920px)
+{
+    .divSobrenos
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        border-bottom: 2px solid #638e93;
+        box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: #638e93;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .sessaoSobrenos
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 900px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sessaoSobrenos img
+    {
+        width: 500px;
+        margin-top: 30px;
+    }
+    .sessaoSobrenos .descricao
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        width: 800px;
+    }
+    .sessaoMissaoVisaoValores
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 40px;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5px;
+    }
+    .missao,.visao,.valores
+    {
+        border-bottom: 2px solid #638e93;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 250px;
+    }
+    .sessaoMissaoVisaoValores p,ul
+    {
+        font-size: 20px;
+    }
+    .sessaoMissaoVisaoValores h2
+    {
+        font-size: 20px;
+        color: #638e93;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 20px;
+    }
+    .sessaoMissaoVisaoValores h3
+    {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 20px;
+    }
+        .imagemAnimacao h3
+    {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #638e93;
+        font-size: 30px;
+    }
+    .imagemAnimacao
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 430px;
+        height: 470px;
+        margin-top: 5px;
+        margin: 2px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slides
+    {
+        display: none;
+    }
+    img
+    {
+        vertical-align: middle;
+        width: 420px;
+        height: 300px;
+        border-radius: 20px;
+    }
+    
+    .Pontos
+    {
+        width: 400px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .pontos
+    {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .ativo
+    {
+        background-color: #717171;
+    }
+    .fade
+    {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade
+    {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    .nosEncontrar
+    {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        width: 430px;
+        margin: 2px;
+        height: 470px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .nosEncontrar iframe
+    {
+        width: 420px;
+        height: 320px;
+        border-radius: 10px;
+    }
+    .nosEncontrar h3
+    {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        color: #638e93;
+    }
+    .animacaoEncontrarNos
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 900px;
+        height: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+}

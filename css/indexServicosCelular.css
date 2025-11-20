@@ -1,0 +1,515 @@
+@media only screen and (max-width: 600px) {
+    .divServicos {
+        display: flex;
+        width: 600px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #638e93;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .sessaoServicos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 600px;
+        margin-top: 10px;
+        padding: 2px;
+        margin-bottom: 20px;
+    }
+    .sessaoServicos a
+    {
+        text-decoration: none;
+    }
+
+    .elementosServicos1 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/ClinicaGeral.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Estetica.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos3 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Implante.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos4 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/FacetaResina.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos5 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Bruxismo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos6 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 150px;
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Protese.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos1 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos2 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos3 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos4 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos5 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos6 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos1 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos2 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos3 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos4 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos5 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos6 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos1 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos2 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos3 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos4 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos5 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos6 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .divServicos {
+        display: flex;
+        width: 900px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #638e93;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .sessaoServicos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 900px;
+        margin-top: 10px;
+        padding: 2px;
+        margin-bottom: 20px;
+    }
+    .sessaoServicos a
+    {
+        text-decoration: none;
+    }
+
+    .elementosServicos1 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/ClinicaGeral.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Estetica.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos3 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Implante.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos4 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/FacetaResina.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos5 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Bruxismo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+
+    .elementosServicos6 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        width: 230px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 40px;
+        background: url("../servicosImagens/Protese.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+    }
+    .elementosServicos1 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos2 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos3 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos4 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos5 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos6 h2 {
+        text-align: center;
+        z-index: 1;
+        color: #638e93;
+        font-size: 15px;
+    }
+
+    .elementosServicos1 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos2 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos3 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos4 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos5 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos6 :hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .elementosServicos1 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos2 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos3 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos4 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos5 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+    .elementosServicos6 h2:hover {
+        text-decoration: underline #638e93;
+        transition: 0.1s;
+        cursor: pointer;
+    }
+
+}
